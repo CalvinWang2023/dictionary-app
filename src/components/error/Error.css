@@ -1,0 +1,31 @@
+.blank-error {
+    margin-top: 70px;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    padding-bottom: 130px;
+}
+
+.blank-error h3 {
+    font-size: 1.7rem;
+}
+
+.search-error {
+    margin-top: 70px;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    padding-bottom: 130px;
+}
+
+.search-error h3 {
+    font-size: 1.7rem;
+}
+
+.blank-dark-mode {
+    color: white;
+}
+
+.search-dark-mode {
+    color: white;
+}

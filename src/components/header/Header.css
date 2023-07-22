@@ -1,0 +1,148 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.header .header-left .dict-icon {
+    transition: .3s;
+}
+
+.header .header-left .dict-icon:hover {
+    transform: scale(1.2);
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.vl {
+    border-left: 1.9px #838383 solid;
+    height: 22px;
+}
+
+.font-choices {
+    position: relative;
+    
+}
+
+.font-init {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px; 
+    margin-right: 30px;
+
+    cursor: pointer;
+}
+
+.font-init p {
+    font-size: 1.3rem;
+}
+
+.custom-select {
+    box-shadow: 3px 3px 5px grey;
+    background-color: white;
+    width: 170px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    position: absolute;  
+    top: 130%;  
+}
+
+.displayed {
+    display: block;
+}
+
+.folded {
+    display: none;
+}
+
+option {
+    padding: 8px;
+    cursor: pointer;
+}
+
+option:hover {
+    color: purple;
+}
+
+option[value='0'] {
+    font-family: 'Inconsolata';
+}
+
+option[value='1'] {
+    font-family: 'Inter';
+}
+
+option[value='2'] {
+    font-family: 'Lora';
+}
+
+
+.switch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-label {
+    background-color: gray;
+    display: flex;
+    padding: 5px;
+    height: 20px;
+    width: 45px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox-label .ball {
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 12%;
+    left: 6%;
+
+    transition: transform .2s linear;
+}
+
+.checkbox:checked+.checkbox-label .ball {
+    transform: translateX(25px);
+}
+
+.checkbox-dark-mode {
+    background-color: purple;
+}
+
+.dictsvg-dark-mode g {
+    stroke: purple;
+}
+
+.moonsvg-dark-mode path {
+    stroke: purple;
+}
+
+.fontname-dark-mode {
+    color: white;
+}
+
+.fontlist-dark-mode {
+    background-color: white;
+    box-shadow: 3px 3px 5px black;
+}

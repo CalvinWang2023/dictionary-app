@@ -1,0 +1,40 @@
+.dict-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 35px;
+}
+
+.word-dark-mode {
+    color: white;
+}
+
+.word-audio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.word-audio .word {
+    font-size: 4rem;
+}
+
+.word-audio img {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.word-audio img:hover {
+    transform: scale(1.15);
+    filter: brightness(1.5);
+}
+
+.phonetics {
+    color: #A445ED;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}

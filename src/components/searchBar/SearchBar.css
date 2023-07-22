@@ -1,0 +1,44 @@
+.searchbar-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px;
+    
+    background-color: rgb(196, 193, 193);
+    border-radius: 15px;
+}
+
+.searchbar {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background: transparent;
+}
+
+.search-icon {
+    margin-right: 6px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.search-icon:hover {
+    transform: scale(1.2);
+}
+
+.container-dark-mode {
+    background-color: rgb(39, 38, 38);
+}
+
+.searchbar-dark-mode {
+    color: white;
+}
+
+.searchbar-container .searchbar {
+    font-family: 'Inconsolata';
+}

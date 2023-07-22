@@ -1,0 +1,101 @@
+.meaning-section {
+    margin-bottom: 50px;
+}
+
+.speech-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.speech-dark-mode {
+    color: white;
+}
+
+.speech-title .speech {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.35rem;
+}
+
+.speech-title .hl {
+    width: 100%;
+    background-color: rgb(224, 219, 219);
+    height: 1px;
+}
+
+.definition-dark-mode {
+    color: white;
+}
+
+.meaning .meaning-title p {
+    color: rgb(188, 185, 185);
+    font-size: 1.2rem;
+}
+
+.meaning .meaning-content ul {
+    list-style: none;
+}
+  
+.meaning .meaning-content ul li::before {
+    content: "\2022";
+    color: #A445ED;
+}
+.meaning .meaning-content ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 35px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.meaning .meaning-content ul li .example {
+    color: rgb(188, 185, 185);
+    margin-top: 15px;
+}
+
+.nyms .synonym {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 35px;
+    margin-top: 20px;
+}
+
+.nyms .synonym .synonym-title {
+    color: rgb(188, 185, 185);
+    font-size: 1.2rem;
+}
+
+.nyms .synonym .synonym-word {
+    color: #A445ED;
+    font-weight: 700;
+}
+
+
+
+.nyms .antonym {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 35px;
+    margin-top: 20px;
+}
+
+.nyms .antonym .antonym-title {
+    color: rgb(188, 185, 185);
+    font-size: 1.2rem;
+}
+
+.nyms .antonym .antonym-word {
+    color: #A445ED;
+    font-weight: 700;
+}

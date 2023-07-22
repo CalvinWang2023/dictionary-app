@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+
+    border-top: 1px solid rgb(224, 219, 219);
+    padding-top: 20px;
+
+    margin-bottom: 60px;
+}
+
+.footer .src-title {
+    color: rgb(188, 185, 185);
+}
+
+.footer .src-url a {
+    color: black;
+    font-weight: 700;
+}
+
+.footer .url-dark-mode a {
+    color: white;
+}
+
+.footer .new-window img {
+    height: 15px;
+    cursor: pointer;
+}
