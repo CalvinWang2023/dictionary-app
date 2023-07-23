@@ -22,6 +22,14 @@
     font-size: 1.7rem;
 }
 
+.blank-error img {
+    height: 300px;
+}
+
+.search-error img {
+    height: 300px;
+}
+
 .blank-dark-mode {
     color: white;
 }
