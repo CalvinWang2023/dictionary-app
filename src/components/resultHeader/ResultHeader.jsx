@@ -35,6 +35,16 @@ const ResultHeader = ({ data, darkTheme }) => {
         }
     };
 
+    const phonetics = texts.map(text => {
+        if (text !== undefined) {
+            return (
+                <>
+                    <p className='phonetic'>{text}</p>
+                </>
+            )
+        }
+    })
+
     useEffect(() => {
         getAudioSrc(),
             getTexts()
@@ -53,17 +63,7 @@ const ResultHeader = ({ data, darkTheme }) => {
                 <img src={ playButton } alt="play button" onClick={ playAudio } />
             </div>
             <div className="phonetics">
-                {
-                    texts.map(text => {
-                        if (text !== undefined) {
-                            return (
-                                <>
-                                    <p className='phonetic'>{text}</p>
-                                </>
-                            )
-                        }
-                    })
-                }
+                { phonetics }
             </div>
         </div>
     )
