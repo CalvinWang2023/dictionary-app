@@ -1,3 +1,3 @@
 # dictionary-app
 
-Dictionary
+Dictionary Web App
