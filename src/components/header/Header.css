@@ -146,3 +146,19 @@ option[value='2'] {
     background-color: white;
     box-shadow: 3px 3px 5px black;
 }
+
+@media (max-width: 768px) {
+    .font-init p {
+        font-size: 1rem;
+    }
+    .font-init {
+        gap: 7px;
+        margin-right: 20px;
+    }
+    .switch {
+        margin-left: 20px;
+    }
+    .switch {
+        gap: 15px;
+    }
+}

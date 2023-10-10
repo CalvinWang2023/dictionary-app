@@ -35,13 +35,11 @@ const ResultHeader = ({ data, darkTheme }) => {
         }
     };
 
-    const phonetics = texts.map(text => {
+    const phonetics = texts.map((text, index) => {
         if (text !== undefined) {
             return (
-                <>
-                    <p className='phonetic'>{text}</p>
-                </>
-            )
+                <p key={index} className='phonetic'>{text}</p>
+            );
         }
     })
 

@@ -37,3 +37,9 @@
 .search-dark-mode {
     color: white;
 }
+
+@media (max-width: 768px) {
+    .search-error img {
+        height: 200px;
+    }
+}

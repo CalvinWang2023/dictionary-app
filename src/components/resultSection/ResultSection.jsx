@@ -8,9 +8,9 @@ const ResultSection = ({ meaning, darkTheme }) => {
         definitions: meaning.definitions
     };
 
-    const meanings = dict.definitions.map((defi) => {
+    const meanings = dict.definitions.map((defi, index) => {
         return (
-            <li>
+            <li key={index}>
                 <div className="definition-general">
                     <p className={ darkTheme ? 'definition-dark-mode definition' : 'definition' }>{ defi.definition }</p>
                     <p className='example'>{ defi.example }</p>
