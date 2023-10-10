@@ -8,7 +8,6 @@ const SearchBar = ({ font, setData, darkTheme, setResult }) => {
         try {
             const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`, {cache: "no-cache"});
             const data = await response.json();
-            console.log(data);
             setData(data);
     
             if (!response.ok) {
